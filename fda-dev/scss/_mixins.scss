@@ -29,7 +29,7 @@
     }
     &:active,
     &.active,
-    .open > &.dropdown-toggle {
+    .open>&.dropdown-toggle {
         color: $color;
         border-color: darken($border, 12%);
         background-color: darken($background, 10%);
@@ -43,7 +43,7 @@
     }
     &:active,
     &.active,
-    .open > &.dropdown-toggle {
+    .open>&.dropdown-toggle {
         background-image: none;
     }
     &.disabled,
