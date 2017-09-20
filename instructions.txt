@@ -12,4 +12,4 @@ gulp minify-css 	minifies the compiled CSS file
 gulp minify-js 		minifies the themes JS file
 gulp copy 		copies dependencies from node_modules to the vendor directory
 
-sed -i -e 's/<text.*<\/text>//g'
+sed -i -e 's/<text.*<\/text>//g' *
