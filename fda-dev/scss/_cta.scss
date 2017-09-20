@@ -2,7 +2,7 @@
 section.cta {
     position: relative;
     padding: 250px 0;
-    background-image: url('../img/bg-cta.jpg');
+    background-image: url('../img/503616079_c09d1b0b1c_b.jpg');
     background-position: center;
     @include background-cover;
     .cta-content {
@@ -17,7 +17,7 @@ section.cta {
         }
         @media (min-width: 768px) {
             h2 {
-                font-size: 80px;
+                font-size: 50px;
             }
         }
     }
