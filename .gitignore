@@ -3,5 +3,5 @@ bower_components
 public
 vendor
 template-zips
-*.min.js
-*.min.css
+**/*.min.js
+**/*.min.css
