@@ -1,5 +1,7 @@
 node_modules
 bower_components
 public
+vendor
+template-zips
 *.min.js
 *.min.css

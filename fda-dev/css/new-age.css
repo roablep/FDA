@@ -185,6 +185,9 @@ section.download {
     section.download h2 {
       font-size: 70px; } }
 
+section.features .about-issues {
+  margin-top: 10px; }
+
 section.features .section-heading {
   margin-bottom: 30px; }
   section.features .section-heading h2 {
