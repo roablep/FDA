@@ -96,8 +96,23 @@ gulp.task('copy', function() {
         .pipe(gulp.dest('vendor/font-awesome'))
 })
 
+// TODO FIX THIS IS BROKEN
+// Copy build files into public directory
+gulp.task('public', function() {
+    gulp.src([
+            'index.html',
+	    'vendor/*/*',
+	    'icomoon/style.css',
+	    'icomoon/*',
+            'css/**',
+	    'img/*',
+	    'js/**'
+        ])
+        .pipe(gulp.dest('../public'))
+})
+
 // Default task
-gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
+gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy', 'public']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {

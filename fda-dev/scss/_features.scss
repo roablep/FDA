@@ -1,5 +1,7 @@
 // Styling for the features section
 section.features {
+    .about-issues {}
+    .about-do {}
     .section-heading {
         margin-bottom: 30px;
         h2 {
@@ -21,8 +23,8 @@ section.features {
         }
     }
     .feature-item {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         text-align: center;
         h3 {
             font-size: 30px;
@@ -30,7 +32,7 @@ section.features {
         i {
             font-size: 80px;
             display: block;
-            margin-bottom: 15px;
+            margin-bottom: 3px;
             background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
             background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
             -webkit-background-clip: text;
