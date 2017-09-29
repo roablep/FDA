@@ -13,9 +13,12 @@ section.features {
             margin-bottom: 0;
         }
     }
-    .device-container,
     .feature-item {
         max-width: 325px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-item2 {
         margin: 0 auto;
     }
     .device-container {
@@ -24,10 +27,10 @@ section.features {
             margin-bottom: 0;
         }
     }
-    .feature-item {
+    .feature-item,
+    .feature-item2 {
         padding-top: 20px;
         padding-bottom: 20px;
-        text-align: center;
         h3 {
             font-size: 30px;
         }
