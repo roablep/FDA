@@ -96,17 +96,15 @@ gulp.task('copy', function() {
         .pipe(gulp.dest('vendor/font-awesome'))
 })
 
-// TODO FIX THIS IS BROKEN
 // Copy build files into public directory
 gulp.task('public', function() {
     gulp.src([
             'index.html',
-	    'vendor/*/*',
-	    'icomoon/style.css',
-	    'icomoon/*',
-            'css/**',
-	    'img/*',
-	    'js/**'
+	    '*vendor/**/*',
+	    '*icomoon/**/*',
+            '*css/**/*',
+	    '*img/**/*',
+	    '*js/**/*'
         ])
         .pipe(gulp.dest('../public'))
 })
